@@ -1,0 +1,19 @@
+{
+  "name": "sample-node-express",
+  "version": "0.0.1",
+  "description": "Sample application with Node.JS and the framework express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "author": "Leo Unbekandt",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.11.2",
+    "jade": "^1.9.2"
+  }
+}
