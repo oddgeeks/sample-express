@@ -1,0 +1,1 @@
+postdeploy: ls -la /
