@@ -1,15 +1,43 @@
-html(style="html{height:100%}")
+doctype html
+html(lang="en")
   head
-    title Sample Node.js application on Scalingo
+    title Greetings from a sample Node.js app built with the Express framework!
+    meta(content="website", property="og:type")
+    meta(content='https://cdn.scalingo.com/homepage/assets/fb-33a6a93ddbf90bfdae57407481aa05a4.png', property='og:image')
+    meta(content="Deploying your own Node.js/Express app on Scalingo is as easy as pie: JUST CLICK THIS BUTTON! It will be up in less than 2 minutes!", property='og:description')
     meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
     meta(content="IE=edge,chrome=1", http-equiv="X-UA-Compatible")
-    meta(content="width=device-width, initial-scale=1.0" name="viewport")
-    link(rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Lato:700")
-  body(style="-webkit-transform-style:preserve-3d;transform-style:preserve-3d;text-align:center;height:100%;margin:0;padding:0;background-color:black;background-image:url('background.jpg');no-repeat fixed center center/cover #000;color:white")
-    a(href="https://github.com/Scalingo/sample-node-express")
-      img(style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub")
-    div#wrapper(style="position:relative;top:40%;-webkit-transform:translateY(-40%);-ms-transform:translateY(-40%);transform:translateY(-40%)")
-      h1(style="font-size:2rem;font-weight:700;text-shadow:0 1px 2px rgba(0,0,0,0.5);font-family:'Lato', sans-serif;margin:0;paddding:0") This is a sample application with NodeJS
-      br
-      a(style="margin-top:1rem;text-decoration:none", href="https://scalingo.com")
-        object(style="height:40px", type="image/svg+xml",data="scalingo.svg")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css")
+    link(rel="stylesheet" href="style.css")
+    link(href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet")
+
+  body
+    div(class="container hero")
+      div(class="love")
+        img(class="scalingo-logo" alt="Scalingo" src="https://scalingo.com/logo-lightgrey.svg")
+        img(class="heart-logo" alt="love" src="https://cdn.scalingo.com/documentation/heart.png")
+        img(class="tech-logo" alt="Express" src="https://cdn.scalingo.com/homepage/assets/technologies/svg/express-4742158092a634e6a93a7073b1553cd0516d126211fda4ffdea412311cd1728d.svg")
+        h1
+          span Greetings from a sample Node.js app
+          br
+          span built with the Express framework!
+        h2
+          span(style="display:block")
+            span(class="one-liner") Deploying your own Node.js/Express app on Scalingo
+            span is as easy as pie:
+          a(class="btn" href="https://my.scalingo.com/deploy?source=https://github.com/Scalingo/sample-node-express") Just click this button!
+          span(style="display:block") It will be up in less than 2 minutes!
+        p The code of this sample lives
+          a(href="https://github.com/Scalingo/sample-node-express")  on GitHub
+          span . You can find
+          a(href="http://samples.scalingo.com")  more samples here
+          span .
+      footer
+        div(class="container")
+          p
+            span(class="one-liner")
+              a(href="https://scalingo.com") Scalingo
+              span.
+                 is the best Platform as a Service on the market:
+            span no server to install, no dependencies to install, just push your code!
