@@ -1,0 +1,14 @@
+{
+  "name": "Sample Node Express",
+  "description": "Sample web application using the Node.JS 'express' framework",
+  "logo": "https://raw.githubusercontent.com/Scalingo/sample-node-express/master/logo.png",
+  "repository": "https://github.com/Scalingo/sample-node-express",
+  "website": "https://scalingo.com",
+  "formation": {
+    "web": {
+      "amount": 1,
+      "size": "S"
+    }
+  }
+}
+
