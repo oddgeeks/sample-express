@@ -1,7 +1,7 @@
 {
   "name": "sample-node-express",
-  "version": "0.0.1",
-  "description": "Sample application with Node.JS and the framework express",
+  "version": "0.1.0",
+  "description": "Sample application with Node.js and the framework express",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,6 +13,7 @@
   "author": "Leo Unbekandt",
   "license": "MIT",
   "dependencies": {
+    "cron": "^1.3.0",
     "express": "^4.11.2",
     "jade": "^1.9.2"
   }
