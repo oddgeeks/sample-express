@@ -4,7 +4,6 @@
   "description": "Sample application with Node.js and the framework express",
   "main": "app.js",
   "scripts": {
-    "scalingo-prebuild": "ln -s $(pwd)/.apt/usr/bin/g++-5 $(pwd)/.apt/usr/bin/g++",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
